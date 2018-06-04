@@ -47,9 +47,10 @@ public class Person {
         
     }
     public void showData() {
-        System.out.println(getName());
-        System.out.println(getSurname());
-        System.out.println(getJmbg());
+        System.out.println("Person name is " + getName());
+        System.out.println("Person surname is " + getSurname());
+        System.out.println("Person jmbg is " + getJmbg());
+        System.out.println();
         
     }
 }
